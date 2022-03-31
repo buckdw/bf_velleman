@@ -18,3 +18,23 @@ from .velleman import FUNCTION_SPEED_1
 from .velleman import FUNCTION_SPEED_2
 from .velleman import FUNCTION_SPEED_3
 from .velleman import SCROLL_LEFT
+
+__all__ = ["checksum",
+           "init_id",
+           "delete_all",
+           "delete_page",
+           "link_pages",
+           "send_page",
+           "ID00",
+           "WAIT_1S",
+           "WAIT_2S",
+           "WAIT_3S",
+           "COLOR_RED",
+           "COLOR_GREEN",
+           "COLOR_AMBER",
+           "COLOR_RAG",
+           "FUNCTION_SPEED_1",
+           "FUNCTION_SPEED_2",
+           "FUNCTION_SPEED_3",
+           "SCROLL_LEFT"
+]
