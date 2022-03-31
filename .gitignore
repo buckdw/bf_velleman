@@ -1,3 +1,4 @@
 bf_velleman.egg-info/
 dist/
 build/
+bf_velleman/__pycache__/
