@@ -55,7 +55,7 @@ def delete_all(id):
 #   delete_page:
 #
 def delete_page(id, page_id, line):
-    def data_packet(page, line):
+    def data_packet(page_id, line):
         checksum_buffer = '<D{line}XP{page_id}>'.format(page_id=page_id, line=line)
         return checksum_buffer
 
